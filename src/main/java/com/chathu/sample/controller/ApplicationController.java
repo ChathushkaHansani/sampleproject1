@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value = "/chathu")
 public class ApplicationController {
 
     @RequestMapping(value = "/print", method = RequestMethod.GET)
